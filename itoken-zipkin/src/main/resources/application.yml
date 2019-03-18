@@ -1,18 +1,9 @@
 spring:
   application:
-    name: hello-spring-cloud-zipkin
-  main:
-    allow-bean-definition-overriding: true
-server:
-  port: 9411
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-
-management:
-  metrics:
-    web:
-      server:
-        auto-time-requests: false
+    name: itoken-zipkin
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: itoken-zipkin
+      label: master
+      profile: dev
