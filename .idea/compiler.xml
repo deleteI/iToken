@@ -10,21 +10,26 @@
         <module name="itoken-config" />
         <module name="itoken-eureka" />
         <module name="itoken-zipkin" />
+        <module name="itoken-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hello-spring-cloud-zuul" target="1.5" />
       <module name="itoken-admin" target="1.8" />
-      <module name="itoken-config" target="1.5" />
+      <module name="itoken-config" target="1.8" />
       <module name="itoken-dependencies" target="1.8" />
-      <module name="itoken-eureka" target="1.5" />
-      <module name="itoken-zipkin" target="1.5" />
-      <module name="itoken-zuul" target="1.5" />
+      <module name="itoken-eureka" target="1.8" />
+      <module name="itoken-zipkin" target="1.8" />
+      <module name="itoken-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="itoken-admin" options="-parameters" />
+      <module name="itoken-config" options="-parameters" />
+      <module name="itoken-eureka" options="-parameters" />
+      <module name="itoken-zipkin" options="-parameters" />
+      <module name="itoken-zuul" options="-parameters" />
     </option>
   </component>
 </project>

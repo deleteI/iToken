@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itoken-zuul/hello-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/itoken-zuul/hello-spring-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/iToken.iml" filepath="$PROJECT_DIR$/.idea/iToken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-config/itoken-config.iml" filepath="$PROJECT_DIR$/itoken-config/itoken-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" filepath="$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" filepath="$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-zipkin/itoken-zipkin.iml" filepath="$PROJECT_DIR$/itoken-zipkin/itoken-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-zuul/itoken-zuul.iml" filepath="$PROJECT_DIR$/itoken-zuul/itoken-zuul.iml" />
+    </modules>
+  </component>
+</project>
