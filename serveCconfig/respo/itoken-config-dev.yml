@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: hello-spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/deleteI/iToken.git
+          search-paths: serveCconfig/respo
+          username: deleteI
+          password: 6453873.0chenyuhang
+  zipkin:
+    base-url: http://localhost:9411
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
