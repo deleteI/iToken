@@ -1,9 +1,18 @@
 spring:
   application:
     name: itoken-zipkin
-  cloud:
-    config:
-      uri: http://localhost:8888
-      name: itoken-zipkin
-      label: master
-      profile: dev
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9411
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.12.157:8761/eureka/
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: hello-spring-cloud-zipkin
+    name: itoken-zipkin
   main:
     allow-bean-definition-overriding: true
 server:

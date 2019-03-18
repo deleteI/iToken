@@ -1,9 +1,22 @@
 spring:
   application:
     name: itoken-admin
-  cloud:
-    config:
-      uri: http://localhost:8888
-      name: itoken-admin
-      label: master
-      profile: dev
+  zipkin:
+    base-url: http://192.168.12.157:9411
+
+server:
+  port: 8084
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: ["health", "info"]
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.12.157:8761/eureka/
