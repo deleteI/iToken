@@ -10,7 +10,9 @@ eureka:
   instance:
     hostname: 192.168.12.157
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    # 表示是否将自己注册到集群中，由于是要注册到集群中，所有应该开启
+    registerWithEureka: true
+    # 集群的华为true
+    fetchRegistry: true
     serviceUrl:
-      defaultZone: http://192.168.12.157:8761/eureka/
+      defaultZone: http://192.168.12.157:8761/eureka/,http://192.168.12.157:8861/eureka/,http://192.168.12.157:8961/eureka/
