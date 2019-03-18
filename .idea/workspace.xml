@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fd9609e-d715-4068-abbd-3e966d71abcd" name="Default Changelist" comment="配置更新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itoken-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itoken-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itoken-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itoken-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-eureka/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itoken-zipkin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-zipkin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itoken-zipkin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-zipkin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itoken-zuul/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-zuul/src/main/resource/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itoken-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-zuul/target/classes/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="7fd9609e-d715-4068-abbd-3e966d71abcd" name="Default Changelist" comment="配置更新" />
     <ignored path="$PROJECT_DIR$/itoken-admin/target/" />
     <ignored path="$PROJECT_DIR$/itoken-config/target/" />
     <ignored path="$PROJECT_DIR$/itoken-zipkin/target/" />
@@ -31,54 +21,14 @@
         <entry file="file://$PROJECT_DIR$/serveConfig/respo/itoken-eureka-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-dependencies/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-admin/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-zipkin/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/resource/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/serveConfig/respo/itoken-admin-dev.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -110,9 +60,9 @@
         <option value="$PROJECT_DIR$/serveCconfig/respo/itoken-zipkin.yml" />
         <option value="$PROJECT_DIR$/serveCconfig/respo/itoken-eureka-dev.yml" />
         <option value="$PROJECT_DIR$/serveCconfig/respo/itoken-admin-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-admin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/itoken-config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/itoken-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/itoken-admin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/itoken-zipkin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/itoken-zuul/src/main/resource/application.yml" />
       </list>
@@ -149,6 +99,32 @@
             <path>
               <item name="iToken" type="b2602c69:ProjectViewProjectNode" />
               <item name="iToken" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iToken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iToken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iToken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iToken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iToken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iToken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iToken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iToken" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iToken" type="b2602c69:ProjectViewProjectNode" />
@@ -202,7 +178,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552921182921" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552922603885" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/itoken-admin/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -301,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11695000" />
+    <option name="totallyTimeSpent" value="12470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -442,13 +418,6 @@
     <entry file="file://$PROJECT_DIR$/itoken-admin/itoken-admin.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-admin/src/main/java/com/funtl/hello/spring/cloud/admin/AdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -476,27 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serveConfig/respo/itoken-eureka-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-dependencies/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -504,26 +452,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-admin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="296">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itoken-zipkin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/resource/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serveConfig/respo/itoken-eureka-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serveConfig/respo/itoken-admin-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
