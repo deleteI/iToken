@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hello-spring-cloud-eureka
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: itoken-eureka
+      label: master
+      profile: dev

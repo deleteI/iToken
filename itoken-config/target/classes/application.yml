@@ -6,7 +6,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/deleteI/iToken.git
+          uri: https://github.com/deleteI/cloudconfig.git
           search-paths: serveCconfig/respo
           username: deleteI
           password: 6453873.0chenyuhang
