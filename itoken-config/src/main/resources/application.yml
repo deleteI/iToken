@@ -1,13 +1,13 @@
 spring:
   application:
-    name: hello-spring-cloud-config
+    name: itoken-config
   cloud:
     config:
       label: master
       server:
         git:
           uri: https://github.com/deleteI/iToken.git
-          search-paths: serveCconfig/respo
+          search-paths: serveConfig/respo
           username: deleteI
           password: 6453873.0chenyuhang
   zipkin:
