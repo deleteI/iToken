@@ -10,7 +10,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.12.157:8761/eureka/
-
 management:
   metrics:
     web:
