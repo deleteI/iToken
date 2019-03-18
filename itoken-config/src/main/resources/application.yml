@@ -11,11 +11,11 @@ spring:
           username: deleteI
           password: 6453873.0chenyuhang
   zipkin:
-    base-url: http://localhost:9411
+    base-url: http://192.168.12.157:9411
 server:
   port: 8888
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.12.157:8761/eureka/
