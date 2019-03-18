@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/itoken-zuul/hello-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/itoken-zuul/hello-spring-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/iToken.iml" filepath="$PROJECT_DIR$/.idea/iToken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-admin/itoken-admin.iml" filepath="$PROJECT_DIR$/itoken-admin/itoken-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-config/itoken-config.iml" filepath="$PROJECT_DIR$/itoken-config/itoken-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" filepath="$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" filepath="$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" />

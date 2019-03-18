@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-spring-cloud-zuul" />
+        <module name="itoken-admin" />
         <module name="itoken-config" />
         <module name="itoken-eureka" />
         <module name="itoken-zipkin" />

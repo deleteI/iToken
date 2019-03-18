@@ -1,22 +1,9 @@
 spring:
   application:
-    name: hello-spring-cloud-admin
-  zipkin:
-    base-url: http://localhost:9411
-
-server:
-  port: 8084
-
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: ["health", "info"]
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+    name: hello-spring-cloud-eureka
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: itoken-admin
+      label: master
+      profile: dev

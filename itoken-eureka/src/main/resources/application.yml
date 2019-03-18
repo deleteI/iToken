@@ -4,6 +4,6 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
-      name: config-client
+      name: itoken-eureka
       label: master
       profile: dev
