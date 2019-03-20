@@ -20,8 +20,9 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- Spring service Settings -->
         <spring-cloud-eureka-version>2.0.2.RELEASE</spring-cloud-eureka-version>
-        <!-- Spring Settings -->
         <spring-cloud.version>Finchley.Release </spring-cloud.version>
         <spring-feign-version>2.0.2.RELEASE</spring-feign-version>
         <spring-zuul>2.1.1.RELEASE</spring-zuul>
@@ -29,36 +30,39 @@
         <zipkin-version>2.10.1</zipkin-version>
         <zipkin-starter-version>2.1.0.RELEASE</zipkin-starter-version>
         <admin-version>2.1.0</admin-version>
+
+        <!--  druid-spring-boot-starter Begin   -->
+        <druid-alibaba-version>1.1.10</druid-alibaba-version>
+        <tk.mabatis-version>2.1.4</tk.mabatis-version>
+        <pageHepler-version>1.2.5</pageHepler-version>
+
+        <lomlok-version>1.16.18</lomlok-version>
+
     </properties>
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
                 <version>${spring-cloud-eureka-version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
             </dependency>
-
             <!--Feign发现者-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-openfeign</artifactId>
                 <version>${spring-feign-version}</version>
             </dependency>
-
             <!--路由网关zuul-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
                 <version>${spring-zuul}</version>
             </dependency>
-
             <!--云配置-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -70,7 +74,6 @@
                 <artifactId>spring-cloud-starter-config</artifactId>
                 <version>${config-version}</version>
             </dependency>
-
             <!--Zipkin链路追踪-->
             <dependency>
                 <groupId>io.zipkin.java</groupId>
@@ -92,14 +95,36 @@
                 <artifactId>spring-cloud-starter-zipkin</artifactId>
                 <version>${zipkin-starter-version}</version>
             </dependency>
-
             <!--服务监听-->
             <dependency>
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-starter-server</artifactId>
                 <version>${admin-version}</version>
             </dependency>
-
+            <!--bruid数据池-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid-alibaba-version}</version>
+            </dependency>
+            <!--tk.mybatis-->
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper-spring-boot-starter</artifactId>
+                <version>${tk.mabatis-version}</version>
+            </dependency>
+            <!--dao生成插件-->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pageHepler-version}</version>
+            </dependency>
+            <!--Lomlok插件-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lomlok-version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
